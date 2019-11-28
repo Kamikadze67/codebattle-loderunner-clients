@@ -1,14 +1,12 @@
 package ru.codebattle.client;
 
-import java.util.function.Consumer;
-import java.util.function.Function;
 import ru.codebattle.client.api.GameBoard;
 import ru.codebattle.client.api.LoderunnerAction;
 import ru.codebattle.client.api.LoderunnerBase;
 
-import java.io.Console;
 import java.net.URISyntaxException;
 import java.util.Random;
+import java.util.function.Function;
 
 public class LodeRunnerClient extends LoderunnerBase {
 
@@ -38,8 +36,7 @@ public class LodeRunnerClient extends LoderunnerBase {
         System.out.flush();
     }
 
-    public void initiateExit()
-    {
-        setShouldExit(true);
+    public void initiateExit() {
+        System.exit(0);
     }
 }

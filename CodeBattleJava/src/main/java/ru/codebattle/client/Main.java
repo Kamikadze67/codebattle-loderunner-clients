@@ -1,10 +1,10 @@
 package ru.codebattle.client;
 
+import ru.codebattle.client.api.LoderunnerAction;
+
 import java.io.IOException;
 import java.net.URISyntaxException;
 import java.util.Random;
-import ru.codebattle.client.api.BoardPoint;
-import ru.codebattle.client.api.LoderunnerAction;
 
 public class Main {
 
